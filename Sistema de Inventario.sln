@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto1", "Proyecto1\Proyecto1.csproj", "{8BF38EC6-0885-44DD-B05A-2783BD77A492}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCDI", "Proyecto1\SCDI.csproj", "{8BF38EC6-0885-44DD-B05A-2783BD77A492}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
