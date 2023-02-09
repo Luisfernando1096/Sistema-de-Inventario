@@ -16,5 +16,10 @@ namespace Proyecto1.GUI
         {
             InitializeComponent();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

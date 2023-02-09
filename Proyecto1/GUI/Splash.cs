@@ -16,5 +16,27 @@ namespace Proyecto1.GUI
         {
             InitializeComponent();
         }
+
+        int n = 0;
+
+        private void Splash_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            n++;
+            label2.Text = "Cargando... " + n.ToString() + "%";
+            progressBar1.Value = n;
+
+            if(n == 100)
+            {
+                this.Hide();
+                timer1.Stop();
+                Login login = new Login();
+                login.Show();
+            }
+        }
     }
 }
