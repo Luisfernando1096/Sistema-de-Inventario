@@ -110,5 +110,11 @@
     <Folder Include="CLS\" />
     <Folder Include="IMG\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataManager\DataManager.csproj">
+      <Project>{165c9df7-1db8-4a64-b4c5-f993940d6f8c}</Project>
+      <Name>DataManager</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
